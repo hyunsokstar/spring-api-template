@@ -19,6 +19,8 @@ spring:
       properties:
         hibernate:
           format_sql: true # sql 예쁘게 출력
+          default_batch_fetch_size: 500
+      oepn-in-view: false # 영속성 컨텍스트의 생존 범위를 트랜잭션 범위로 한정
 
       servlet:
         multipart:
@@ -27,4 +29,4 @@ spring:
 
 logging:
   level:
-    org.hibernate.type: trace # 콘솔창에 조건에 바인딩되는 값 출력 (for sql)sssss
+    org.hibernate.type: trace # 콘솔창에 조건에 바인딩되는 값 출력 (for sql)

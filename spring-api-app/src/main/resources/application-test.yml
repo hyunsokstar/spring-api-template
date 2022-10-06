@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbx:h2:mem::test
+    username: sa
+    password:
+    dirver-class-name: org.h2.Driver
+    
