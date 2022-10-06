@@ -13,6 +13,7 @@ public class ExceptionTestController {
 
     @GetMapping("/bind-exception-test")
     public String bindExceptionTest(@Valid BindExceptionTestDto bindExceptionTestDto) {
+        System.out.println("test !!!!!!!!!!!!!");
         return "ok";
     }
 
