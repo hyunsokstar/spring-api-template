@@ -23,7 +23,6 @@ public class HealthFeignTestController {
 
     @GetMapping("/health/feign-test2")
     public void healthCheck2() {
-
         System.out.println("health/feign-test2 check");
     }
 
