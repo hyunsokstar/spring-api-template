@@ -1,5 +1,4 @@
 package com.app.global.config;
-
 import com.app.global.error.FeignClientExceptionErrorDecoder;
 import feign.Logger;
 import feign.Retryer;
